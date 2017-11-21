@@ -35,6 +35,7 @@ public class Session implements Serializable {
     @Column(name = "description_content_type", nullable = false)
     private String descriptionContentType;
 
+
     @NotNull
     @Column(name = "start_date_time", nullable = false)
     private LocalDate startDateTime;
